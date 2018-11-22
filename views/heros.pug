@@ -1,0 +1,28 @@
+extends layout
+
+block content
+ 
+    h2.center-align SuperHeroes   
+    each val in data
+      .row
+        .col-6
+         .card-panel.teal.lighten-2
+           .card-content
+
+
+              .card-title.white
+                h3 #{val.superhero}
+                
+                
+                h6 #{val.id}
+                
+                 ul#nav-mobile.right.hide-on-med-and-down
+                  a.navbar-brand(href='/deleteRow?id='+val.id).btn Delete
+                  a.navbar-brand(href='/viewRow?id='+val.id).btn View
+                 
+                p Real Name : #{val.alter_ego}
+                p Publisher : #{val.publisher}
+                p Appearance: #{val.first_appearance}
+                p Characters: #{val.characters}
+                p Valid  : #{val.is_valid}
+                p Update : #{val.update_time}

@@ -1,0 +1,30 @@
+body {
+	background-image:url('https://secure.cdn1.wdpromedia.com/resize/mwImage/1/900/360/75/dam/wdpro-assets/dlr/parks-and-tickets/special-events/experience-marvel-superheroes/super-heroes-hero-cast-5x2.jpg?1540269002974');
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+card{
+ background-image:url('https://secure.cdn1.wdpromedia.com/resize/mwImage/1/900/360/75/dam/wdpro-assets/dlr/parks-and-tickets/special-events/experience-marvel-superheroes/super-heroes-hero-cast-5x2.jpg?1540269002974'); 
+}
+
+h2{
+  color: #00FF00;
+}
+
+    h3{
+    	color:#FA8072;
+    }
+    p{
+    	color:#800080;
+    }
+
+    h1
+    {
+    	color:#000000;
+    	text-align: center;
+    }
+
+
+    

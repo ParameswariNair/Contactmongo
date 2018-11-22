@@ -1,0 +1,54 @@
+extends layout
+
+block content
+ <!--nav(role="navigation", class=["navbar", "navbar-" + style])
+ .navbar-header
+  
+ a.navbar-brand()
+ .collapse.navbar-collapse()
+ ul.nav.navbar-nav -->
+ <!-- <b><a href='./getAllHeros'>VIEW</a></b> -->
+
+
+  h1= title
+   footer#footer
+  p Copyright (c) ComicCompany 
+   
+  form(action ='saveData' method='get')
+
+
+    .rows
+      .input-field.col.s6
+        label.active(for='superhero') Superhero
+        input#superhero.validate( type='text', name='superhero')
+
+    .row
+      .input-field.col.s6
+        label.active(for='publisher') publisher
+        input#first_name.validate( type='text', name='publisher')    
+  
+    .row
+      .input-field.col.s6
+         label.active(for='alterego') Alter-ego
+         input#first_name.validate( type='text', name='alter_ego') 
+
+    .row
+      .input-field.col.s6
+         label.active(for='firstappearance') FirstAppearance
+         input#first_appearance.validate( type='text', name='first_appearance')
+    .row
+      .input-field.col.s6
+         label.active(for='characters') Characters
+         input#characters.validate( type='text', name='characters')  
+    .row
+      .input-field.col.s6
+         label.active(for='valid') Valid
+         input#is_valid.validate( type='text', name='is_valid')  
+    .row
+      .input-field.col.s6
+         label.active(for='updatetime') Update
+         input#update.validate( type='text', name='update_time')
+
+    .row
+      button.btn(type='submit') Go 
+      
