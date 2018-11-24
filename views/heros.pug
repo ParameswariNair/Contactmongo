@@ -2,7 +2,7 @@ extends layout
 
 block content
  
-    h2.center-align SuperHeroes   
+    h2.center-align Contacts   
     each val in data
       .row
         .col-6
@@ -14,3 +14,4 @@ block content
                 ul#nav-mobile.right.hide-onmed-and-down
                   a.navbar-brand(href='./').btn Back
                   a.navbar-brand(href='deleteRow?name='+val.name).btn Delete
+                  a.navbar-brand(href='viewData?_id='+val._id).btn view
